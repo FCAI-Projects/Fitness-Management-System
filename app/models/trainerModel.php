@@ -22,10 +22,11 @@ class trainerModel {
 
     public function setAttendance($id, $memeberId) {
         $this->db->query("SELECT * FROM  attendence WHERE member_id ='$memeberId' ORDER BY date DESC");
-        $attendanceNumber = $this->db->rowCount();
+       
         $data = $this->db->resultSet();
-
+        $attendanceNumber = sizeof($data);
         ++$attendanceNumber;
+        
         if (isset($data[0])) {
 
             $last_date = $data[0]->date;

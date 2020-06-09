@@ -46,6 +46,4 @@
         html2canvas:  { scale: 2 },
         jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
     };
-
-
 </script>

@@ -50,9 +50,6 @@ class MemberController extends AbstractController {
         } else {
             header('Location: ' . URLROOT . '/member');
         }
-
-
-
     }
 
 

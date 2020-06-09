@@ -23,7 +23,6 @@ class memberModel {
         $this->db->execute();
         $this->db->query('UPDATE trainer SET cur_num = cur_num + 1 WHERE trainer_id = ' . $id);
         $this->db->execute();
-
     }
 
     public function getMemberTrainerId() {
@@ -116,7 +115,6 @@ class memberModel {
             $this->db->execute();
             return true;
         }
-
     }
 
 }

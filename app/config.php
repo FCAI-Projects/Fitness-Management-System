@@ -9,7 +9,7 @@ define('DB_PASS', '');
 define('DB_NAME', 'fitness');
 
 define('VIEWS_PATH',APP_PATH.DS.'views'.DS );
-define("URLROOT", 'http://localhost/fitness/public');
+define("URLROOT", 'http://localhost/Fitness-Management-System/public');
 // Site Name
 define("SITENAME", 'Fitness Club');
 session_start();
